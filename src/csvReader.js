@@ -23,4 +23,4 @@ async function writeCSV(filename, data) {
     fs.writeFileSync(filename, csv);
 }
 
-module.exports = { readCSV, writeCSV };
+module.exports = {readCSV,writeCSV};
